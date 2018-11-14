@@ -1,0 +1,23 @@
+{
+  "name": "read-only-pg",
+  "version": "1.0.0",
+  "description": "Make PostgreSQL safe for a read-only API",
+  "main": "index.js",
+  "dependencies": {
+    "pg": "^7.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapmeld/read-only-pg.git"
+  },
+  "author": "Nick Doiron <ndoiron@mapmeld.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mapmeld/read-only-pg/issues"
+  },
+  "homepage": "https://github.com/mapmeld/read-only-pg#readme"
+}
