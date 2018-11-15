@@ -21,10 +21,15 @@ const ropg = require('read-only-pg')
 const client = new ropg.Client({ user: 'read', password: 'only', port: 5432, host: 'db.example.com' });
 
 // throws error if something is wrong
-await client.connect();
-
-// when everything is OK
-client.query('SELECT NOW()')
+client.connect((err) => {
+  // callback optional
+  if (err) {
+    throw err;
+  }
+  
+  // when everything is OK
+  client.query('SELECT NOW()')
+});
 ```
 
 ## License
