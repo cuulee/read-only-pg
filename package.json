@@ -1,6 +1,6 @@
 {
   "name": "read-only-pg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Make PostgreSQL safe for a read-only API",
   "main": "index.js",
   "dependencies": {

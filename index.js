@@ -20,6 +20,9 @@ Client.prototype.end = function () {
 };
 
 Client.prototype.connect = function(callback) {
+  if (!callback) {
+    callback = () => {};
+  }
   //console.log('attempting connect');
   //console.log(this.params);
   let innerClient = new pg.Client(this.params);
