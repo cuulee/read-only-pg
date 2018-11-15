@@ -1,5 +1,7 @@
 # read-only-pg
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mapmeld/read-only-pg.svg)](https://greenkeeper.io/)
+
 I created this module because I wanted code-learners to run SQL from
 ObservableHQ and other sites which only support fetch / HTTP requests.
 I already made a read-only user for my database, so it was safe to create
